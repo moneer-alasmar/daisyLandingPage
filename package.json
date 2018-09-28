@@ -1,0 +1,14 @@
+{
+  "name": "daisylandingpage",
+  "version": "1.0.0",
+  "description": "Langing Page for Daisy's Business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moneer Alasmar",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}

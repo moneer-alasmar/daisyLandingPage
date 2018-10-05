@@ -2,9 +2,10 @@
   "name": "daisylandingpage",
   "version": "1.0.0",
   "description": "Langing Page for Daisy's Business",
+  "homepage": "https://moneer-alasmar.github.io/daisyLandingPage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Moneer Alasmar",
   "license": "MIT",

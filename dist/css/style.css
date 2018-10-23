@@ -81,7 +81,7 @@ section#entertainment {
 #showcase {
   margin: 0;
   padding: 0;
-  background: url("../img/Daisy/showcase1.jpg") no-repeat center/cover;
+  background: url("../img/Daisy/showcase.jpg") no-repeat center/cover;
   width: 100%;
   height: 120vh;
   position: relative;
@@ -366,7 +366,7 @@ nav a#openup {
   vertical-align: top;
 }
 
-.polaroid {
+.rajaCat {
   float: right;
 }
 

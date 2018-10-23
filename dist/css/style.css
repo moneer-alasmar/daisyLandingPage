@@ -312,9 +312,86 @@ nav a#openup {
   padding-top: 50px;
 }
 
+.arrow {
+  position: relative;
+  bottom: -2rem;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-image: url("../img/Daisy/arrow.png");
+  background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.portrait {
+  height: 400px;
+  width: auto;
+}
+
+.landScape {
+  width: 375px;
+  height: auto;
+}
+
+.row {
+  display: inline-block;
+  margin: 1vh;
+}
+
+.alignTop {
+  vertical-align: top;
+}
+
+.polaroid {
+  float: right;
+}
+
 @media screen and (max-width: 780px) {
   .gift-cards {
     grid-template-columns: 1fr;
+  }
+
+  .portrait {
+    height: auto;
+    width: auto;
+  }
+
+  .landScape {
+    width: auto;
+    height: auto;
+  }
+
+  .alignTop {
+    vertical-align: top;
+  }
+
+  .row {
+    display: inline-block;
+    margin: 1vh;
   }
 
   #showcase .container {
